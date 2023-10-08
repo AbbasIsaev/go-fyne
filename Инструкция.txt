@@ -1,12 +1,15 @@
-Установка Fine https://developer.fyne.io/started/
+Установка Fyne https://developer.fyne.io/started/
 go get fyne.io/fyne/v2@latest
 go install fyne.io/fyne/v2/cmd/fyne@latest
 
-Добавить в переменную окружения path C:\go\go1.21.2\bin путь к go.exe
+Добавить в переменную окружения path путь к go.exe:
+C:\go\go1.21.2\bin
 
 Установить GCC компилятор С (Си) https://www.msys2.org/ добавить в переменную окружения path путь к gcc:
-C:\Users\admin>C:\msys64\ucrt64\bin\gcc.exe --version
-gcc.exe (Rev7, Built by MSYS2 project) 13.1.0
+C:\msys64\ucrt64\bin
+Проверка GCC в консоли:
+C:\Users\admin>gcc --version
+gcc (Rev2, Built by MSYS2 project) 13.2.0
 
 После обновления переменной path перезапустить IDE
 

@@ -1,4 +1,4 @@
-module go-form
+module go-fyne
 
 go 1.21
 

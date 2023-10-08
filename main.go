@@ -17,7 +17,7 @@ func shutdown(minute string) string {
 	cmd := exec.Command(".\\shellScripts\\ShutDown.bat", minute)
 	out, err := cmd.CombinedOutput()
 	sOut := string(out)
-	sOut = strings.Replace(sOut, "\n", "", -1)
+	sOut = strings.Replace(sOut, "\r\n", "", -1)
 	if err != nil {
 		log.Println(sOut)
 		log.Println(err)
