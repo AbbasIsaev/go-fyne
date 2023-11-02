@@ -17,5 +17,5 @@ make run
 ### Сборка проекта под Windows
 
 ```shell
-make package-windows
+make build-windows
 ```
